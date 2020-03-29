@@ -1,0 +1,15 @@
+# place into /etc/systemd/system/
+# for automatic boot after restart: sudo systemctl enable rbtlongj
+[Unit]
+Description=rbtlongj backend
+
+[Service]
+WorkingDirectory=/srv/rbtlongj/rbtlongjcore/dist/libs
+ExecStart=/usr/bin/java -Xms128m -Xmx256m -jar rbtlongjcore-1.0.jar
+User=jvmapps
+Type=simple
+Restart=on-failure
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target
