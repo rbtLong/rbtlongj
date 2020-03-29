@@ -39,3 +39,15 @@ jar {
         configurations.compile.collect { it.isDirectory() ? it : zipTree(it) }
     }
 }
+
+assemble.doLast {
+    copy {
+        from "$buildDir/"
+        into "$projectDir/dist"
+    }
+
+    copy {
+        from "server.json"
+        into "$projectDir/dist/libs"
+    }
+}

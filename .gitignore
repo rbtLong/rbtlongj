@@ -1,4 +1,5 @@
 server.json
+**/server.json
 .idea/
 **/.idea/
 .gradle/
@@ -12,3 +13,4 @@ build/
 target/
 **/node_modules/
 node_modules/
+**/dist
