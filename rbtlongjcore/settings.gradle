@@ -1,0 +1,2 @@
+include ":helperj"
+project(":helperj").projectDir = new File("../helperj")

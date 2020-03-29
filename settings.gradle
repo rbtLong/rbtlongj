@@ -1,0 +1,6 @@
+include ":helperj"
+project(":helperj").projectDir = new File("helperj")
+include ":rbtlongjcore"
+project(":rbtlongjcore").projectDir = new File("rbtlongjcore")
+include ":rbtlongui"
+project(":rbtlongui").projectDir = new File("rbtlongui")
