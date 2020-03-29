@@ -1,0 +1,14 @@
+server.json
+.idea/
+**/.idea/
+.gradle/
+**/.gradle/
+target/
+**/target
+out/
+**/out/
+build/
+**/build/
+target/
+**/node_modules/
+node_modules/

@@ -1,0 +1,7 @@
+[submodule "helperj"]
+	path = helperj
+	url = https://github.com/rbtLong/helperj.git
+
+[submodule "rbtlongjui"]
+	path = rbtlongjui
+	url = https://github.com/rbtLong/rbtlongjui.git
